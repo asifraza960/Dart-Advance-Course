@@ -15,4 +15,6 @@ Maintainability — parent class me changes se sab update ho jaate hain
 
 Hierarchy — ek natural structure banti hai (e.g., Animal → Dog, Cat)
 
-
+4. this keyword
+ this ka matlab hota hai: "ye current class ka object"
+Aur ye tab use hota hai jab aapko class ke variables/functions ko clearly refer karna ho.
