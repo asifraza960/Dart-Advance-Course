@@ -9,3 +9,16 @@ Jab aap chahte ho ki koi base class ho jisme common structure ho.
 Aur subclasses us structure ko follow karen ya override karen.
 
 Jab aap chahte ho ki kuch methods ka sirf declaration ho, definition nahi.
+
+
+Abstract class me  hm jo method likhte ha oss ke age {} use nhe krte 
+
+
+
+// abstract class Animal {
+//   void makeSound(); // abstract method (no body)
+
+//   void sleep() {
+//     print("Animal is sleeping"); // concrete method
+//   }
+// }
