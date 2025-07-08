@@ -7,7 +7,26 @@ class Laptop{
 
   void display(){
 
+    print("parent constructor call");
 
-    print("")
+    print("laptop name is: ${name}  price  is: ${price}");
   }
+
+
+
+}
+class Apple  extends Laptop{
+
+
+  Apple(String name, double price):super(name, price);
+}
+
+
+
+void main (){
+
+  Apple apple = Apple('thinkpad', 3500.0);
+
+  apple.display();
+
 }
