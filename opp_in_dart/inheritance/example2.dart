@@ -1,32 +1,40 @@
-class Laptop{
+// Parent class
+class Laptop {
   String name;
   double price;
 
+  // Parent constructor
+  Laptop(this.name, this.price);
 
-  Laptop(this.name,this.price);
-
-  void display(){
-
-    print("parent constructor call");
-
-    print("laptop name is: ${name}  price  is: ${price}");
+  // Parent function
+  void display() {
+    print("Parent constructor call");
+    print("Laptop name is: ${name}  Price is: ${price}");
   }
-
-
-
-}
-class Apple  extends Laptop{
-
-
-  Apple(String name, double price):super(name, price);
 }
 
+// Sub class
+class Apple extends Laptop {
+  int modle;
 
+  // Subclass constructor
+  Apple(String name, double price, this.modle) : super(name, price);
 
-void main (){
+  // Subclass function
+  void displayinfo() {
+    super.display(); // Calling parent class function
+    print("Your model is: ${this.modle}");
+  }
+}
 
-  Apple apple = Apple('thinkpad', 3500.0);
+// Main function
+void main() {
+  // Instance of subclass
+  Apple apple = Apple('thinkpad', 3500.0, 2016);
 
+  // Call parent class method using subclass instance
   apple.display();
 
+  // Call subclass method
+  apple.displayinfo();
 }
