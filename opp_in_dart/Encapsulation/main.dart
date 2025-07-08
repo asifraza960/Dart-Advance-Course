@@ -12,12 +12,15 @@ void main (){
       print(person.name);
 
 
+// Starting with 1000
+  BankAccount account = BankAccount(1000); 
 
+  print("Initial Balance: \$${account.balance}");
 
-      Bank bank = Bank();
-      bank.deposit = 2000;
-      bank.widthdraw = 1000;
-      print("your bank  balance is ${bank}");
-  
+  account.deposit(500);     // Adding 500
+  account.withdraw(300);    // Removing 300
+  account.withdraw(1500);   // Trying to withdraw too much
 
+  print("Final Balance: \$${account.balance}");
 }
+  
