@@ -1,3 +1,16 @@
+void main (){
+NetworkApiServices networkApiServices = NetworkApiServices();
+networkApiServices.getApi();
+networkApiServices.postApi();
+
+
+}
+
+
+
+
+
+
 abstract class BaseApiServices{
 
 void postApi(); 
@@ -8,20 +21,23 @@ void getApi();
 
 
 
+
 class NetworkApiServices extends BaseApiServices{
 
 
   @override
-  void getApi() {
-    // TODO: implement getApi
+  void getApi() async{
+    print("get Api");
+    await Future.delayed(Duration(seconds: 3));
+
+    print("after 3 second");
 
 
   }
 
   @override
   void postApi() {
-    // TODO: implement postApi
+    print("post Api");
 
-    
   }
 }
