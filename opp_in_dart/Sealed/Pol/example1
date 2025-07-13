@@ -31,5 +31,11 @@ void main() {
   myAnimal = Cat();
   myAnimal.makeSound(); // Output: Cat meows
 }
+Animal aik parent class hai jisme makeSound() method define kiya gaya hai.
+
+Dog aur Cat classes ne us method ko override kiya.
+
+Jab hum myAnimal ko Dog() ya Cat() assign karte hain, to same method call karne par alag output milta hai — yeh hai Polymorphism.
+
 
 
