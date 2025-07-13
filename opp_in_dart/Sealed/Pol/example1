@@ -1,0 +1,35 @@
+// Parent Class
+class Animal {
+  void makeSound() {
+    print("Animal makes a sound");
+  }
+}
+
+// Child Class
+class Dog extends Animal {
+  @override
+  void makeSound() {
+    print("Dog barks");
+  }
+}
+
+// Another Child Class
+class Cat extends Animal {
+  @override
+  void makeSound() {
+    print("Cat meows");
+  }
+}
+
+// Main Function
+void main() {
+  Animal myAnimal;
+
+  myAnimal = Dog();
+  myAnimal.makeSound(); // Output: Dog barks
+
+  myAnimal = Cat();
+  myAnimal.makeSound(); // Output: Cat meows
+}
+
+
