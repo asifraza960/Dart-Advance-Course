@@ -1,0 +1,6 @@
+enum Weather {
+  summer,
+  winter,
+  rainy,
+  autumn,
+}
