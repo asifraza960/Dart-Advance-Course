@@ -9,9 +9,9 @@ void main() {
   Weather today = Weather.rainy;
 
   if (today == Weather.rainy) {
-    print('It\'s raining today ☔');
+    print('It\'s raining today');
   } else if (today == Weather.summer) {
-   
+    print('It\'s hot today ');
   }
 }
 
