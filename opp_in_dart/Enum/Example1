@@ -4,3 +4,10 @@ enum Weather {
   rainy,
   autumn,
 }
+
+void main() {
+  Weather today = Weather.rainy;
+
+  if (today == Weather.rainy) {
+    print('It\'s raining today ☔');
+  
