@@ -15,4 +15,8 @@ void main() {
   }
 }
 
-  
+  enum Status {
+  pending,
+  approved,
+  rejected,
+}
