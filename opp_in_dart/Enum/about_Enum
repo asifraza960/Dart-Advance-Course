@@ -1,0 +1,7 @@
+
+enum 
+enum (enumeration) Dart mein aik special data type hoti hai jo limited, fixed set of constant values ko define karne ke liye use hoti hai.
+
+
+enum Dart mein ek list of related constant values define karne ka tareeqa hai.
+enum in Flutter (or Dart, the programming language used in Flutter) ek enumeration hoti hai — yani ek aisa custom data type jo predefined constant values ka set define karta hai
