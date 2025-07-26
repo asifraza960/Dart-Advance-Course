@@ -13,5 +13,6 @@ enum Animal {
   cat,
   dog,
   bird,
+  bear,
 }
 
