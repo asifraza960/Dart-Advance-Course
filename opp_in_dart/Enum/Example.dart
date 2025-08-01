@@ -23,3 +23,6 @@ void main() {
 enum Color {
     RED, GREEN,Blue;
 }
+enum info {
+    name, age,gen;
+}
