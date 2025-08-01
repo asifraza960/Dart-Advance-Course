@@ -5,5 +5,9 @@ enum DaysOfWeek {
   Thursday,
   Friday,
   Saturday,
-  Sunday
+  Sunday,
+
+}  
+void main (){
+  print('f');
 }
