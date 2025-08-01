@@ -24,5 +24,5 @@ enum Color {
     RED, GREEN,Blue;
 }
 enum info {
-    name, age,gen;
+    name, age,genmaile, genfemail;
 }
