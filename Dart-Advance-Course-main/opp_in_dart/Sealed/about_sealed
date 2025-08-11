@@ -1,0 +1,9 @@
+1. sealed
+jisko sirf kuch limited, fixed classes hi extend kar sakti hain — aur sab wahi file me honi chahiye
+
+2.sealed class Dart me ek restricted base class hoti hai.
+
+Iska use mostly state management, pattern matching, aur safe switch-cases me hota hai.
+
+Sirf Dart 3+ me available hai.
+

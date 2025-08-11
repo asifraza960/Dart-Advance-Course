@@ -1,0 +1,14 @@
+Encapsulation kya hai
+
+"Apni data aur functions ko ek unit (class) ke andar chhupa kar rakhna, aur baahir ke code ko direct access na dena."
+	Data ko direct access nahi hota, sirf method se hota hai
+    Aap decide karte hain kaunsa data bahar jaaye ya nahi
+    Code easy hota hai maintain karna
+
+    Encapsulation = Data ko private banana + access ke liye getter/setter dena
+
+    Real-life Example: Bank Account System
+    Aap ek banking app bana rahe hain. Har user ka ek account balance hota hai — lekin kya kisi bhi user ko directly balance change karne denge?
+
+Nahi!
+Balance chhupa kar (private) rakhna hoga, aur sirf deposit() aur withdraw() method se access milega.

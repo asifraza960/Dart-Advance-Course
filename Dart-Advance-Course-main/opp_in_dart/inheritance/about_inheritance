@@ -1,0 +1,20 @@
+ 1. Inheritance kya hota ha:
+
+Inheritance ek object-oriented programming (OOP) ka concept hai,
+jisme ek class, doosri class ke properties (data) aur methods (functions) ko use ya inherit karti hai.
+
+3. extends:   In Dart, iska matlab hai "inherit karna
+Super:     class	Jis class se inherit kiya gaya hai
+Sub class: Jo class inherit karti hai
+
+
+3. Why use Inheritance?
+Code reuse — same logic dobara likhne ki zarurat nahi
+
+Maintainability — parent class me changes se sab update ho jaate hain
+
+Hierarchy — ek natural structure banti hai (e.g., Animal → Dog, Cat)
+
+4. this keyword
+ this ka matlab hota hai: "ye current class ka object"
+Aur ye tab use hota hai jab aapko class ke variables/functions ko clearly refer karna ho.
