@@ -1,6 +1,8 @@
 
 enum 
-enum (enumeration) Dart mein aik special data type hoti hai jo limited, fixed set of constant values ko define karne ke liye use hoti hai.
+enum (enumeration) Dart mein aik special data type hoti hai jo limited,
+ fixed set of constant values ko define karne ke liye use hoti hai.
+Enum (Enumeration) ek data type hai jo aapko named constants banane ka tareeqa deta hai
 
 
 enum Dart mein ek list of related constant values define karne ka tareeqa hai.
